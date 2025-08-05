@@ -1,0 +1,60 @@
+/* Leaflet CSS - Import this for proper map styling */
+@import 'leaflet/dist/leaflet.css';
+
+/* Custom styles for our map */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.custom-marker {
+  background: transparent;
+  border: none;
+}
+
+.custom-marker .marker-pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulse 2s infinite;
+}
+
+.marker-pin.completed {
+  background-color: #10b981;
+}
+
+.marker-pin.in-progress {
+  background-color: #f59e0b;
+}
+
+.marker-pin.planned {
+  background-color: #3b82f6;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  padding: 0;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 16px;
+}
