@@ -6,6 +6,32 @@
   height: 100%;
   width: 100%;
   border-radius: 1rem;
+  /* Fix scrolling issues */
+  touch-action: none;
+}
+
+/* Prevent map from capturing scroll events when not focused */
+.leaflet-container:not(:focus):not(:hover) {
+  pointer-events: none;
+}
+
+.leaflet-container:hover,
+.leaflet-container:focus {
+  pointer-events: auto;
+}
+
+/* Ensure map controls are always interactive */
+.leaflet-control-container {
+  pointer-events: auto !important;
+}
+
+.leaflet-control-container * {
+  pointer-events: auto !important;
+}
+
+/* Fix for mobile touch scrolling */
+.leaflet-touch .leaflet-container {
+  touch-action: pan-x pan-y;
 }
 
 .custom-marker {
