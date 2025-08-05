@@ -24,7 +24,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ currentUser }) => {
     { rank: 7, name: 'Madhi Khadka', trees: 5847, treecoins: 58470, location: 'Bajhang', badge: 'Green Knight', avatar: 'MK' },
     { rank: 8, name: 'Bhisma Timalsina', trees: 5234, treecoins: 52340, location: 'Butwal', badge: 'Forest Sage', avatar: 'BT' },
     { rank: 9, name: 'Krishna Ale', trees: 4789, treecoins: 47890, location: 'Dharan', badge: 'Eco Warrior', avatar: 'KA' },
-    { rank: 10, name: 'Kusami Karki', trees: 4567, treecoins: 45670, location: 'Jhapa', badge: 'Desert Greener', avatar: 'KK' },
+    { rank: 10, name: 'Kusum Karki', trees: 4567, treecoins: 45670, location: 'Jhapa', badge: 'Desert Greener', avatar: 'KK' },
   ];
 
   const getRankIcon = (rank: number) => {

@@ -29,13 +29,34 @@ const TreeMap: React.FC = () => {
     });
   };
 
-  // Component to set map view to Nepal
+  // Component to set map view to Nepal and handle scroll behavior
   const SetViewToNepal = () => {
     const map = useMap();
     
     useEffect(() => {
       // Center on Nepal with appropriate zoom level
       map.setView([28.1000, 85.0000], 7);
+      
+      // Enable scroll wheel zoom only when map is clicked/focused
+      const enableScrollZoom = () => {
+        map.scrollWheelZoom.enable();
+      };
+      
+      const disableScrollZoom = () => {
+        setTimeout(() => {
+          map.scrollWheelZoom.disable();
+        }, 3000); // Disable after 3 seconds of inactivity
+      };
+      
+      // Add event listeners
+      map.on('click', enableScrollZoom);
+      map.on('mouseout', disableScrollZoom);
+      
+      // Cleanup event listeners
+      return () => {
+        map.off('click', enableScrollZoom);
+        map.off('mouseout', disableScrollZoom);
+      };
     }, [map]);
     
     return null;
@@ -216,6 +237,12 @@ const TreeMap: React.FC = () => {
                 zoom={7}
                 style={{ height: '100%', width: '100%' }}
                 className="rounded-2xl"
+                scrollWheelZoom={false}
+                doubleClickZoom={true}
+                dragging={true}
+                zoomControl={true}
+                touchZoom={true}
+                boxZoom={false}
               >
                 <SetViewToNepal />
                 <TileLayer
@@ -273,6 +300,9 @@ const TreeMap: React.FC = () => {
                 </p>
                 <p className="text-xs text-gray-600 mt-1">
                   {filteredLocations.length} active sites • Click markers for details
+                </p>
+                <p className="text-xs text-blue-600 mt-1">
+                  💡 Click map to enable scroll zoom
                 </p>
               </div>
             </div>

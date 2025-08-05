@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ user, onLogout }) => {
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-                GHaaS
+                GHaaS4Impact
               </h1>
               <p className="text-xs text-green-600 font-medium">Green Humanity As A Service</p>
             </div>

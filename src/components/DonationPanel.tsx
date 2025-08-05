@@ -17,9 +17,9 @@ const DonationPanel: React.FC<DonationPanelProps> = ({ user }) => {
   const [selectedPackage, setSelectedPackage] = useState('custom');
 
   const packages = [
-    { id: 'starter', name: 'Starter Pack', trees: 5, price: 25, popular: false },
-    { id: 'eco', name: 'Eco Warrior', trees: 25, price: 100, popular: true },
-    { id: 'forest', name: 'Forest Guardian', trees: 100, price: 350, popular: false },
+    { id: 'starter', name: 'Starter Pack', trees: 5, price: 500, popular: false },
+    { id: 'eco', name: 'Eco Warrior', trees: 25, price: 1000, popular: true },
+    { id: 'forest', name: 'Forest Guardian', trees: 100, price: 1500, popular: false },
   ];
 
   const calculateImpact = (trees: number) => ({
@@ -79,8 +79,8 @@ const DonationPanel: React.FC<DonationPanelProps> = ({ user }) => {
                         <p className="text-sm text-gray-600">{pkg.trees} trees</p>
                       </div>
                       <div className="text-right">
-                        <p className="text-2xl font-bold text-green-600">${pkg.price}</p>
-                        <p className="text-xs text-gray-500">${(pkg.price / pkg.trees).toFixed(1)}/tree</p>
+                        <p className="text-2xl font-bold text-green-600">रु{pkg.price}</p>
+                        <p className="text-xs text-gray-500">रु{(pkg.price / pkg.trees).toFixed(1)}/tree</p>
                       </div>
                     </div>
                   </button>
@@ -168,7 +168,7 @@ const DonationPanel: React.FC<DonationPanelProps> = ({ user }) => {
             {/* Donate Button */}
             <button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white py-4 rounded-xl font-semibold text-lg hover:from-green-700 hover:to-emerald-700 transition-all duration-200 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg">
               <CreditCard className="w-5 h-5" />
-              <span>Donate ${impact.cost}</span>
+              <span>Donate रु{impact.cost}</span>
               <Zap className="w-5 h-5" />
             </button>
           </div>
