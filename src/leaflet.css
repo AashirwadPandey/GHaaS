@@ -1,4 +1,4 @@
-/* Leaflet CSS - Import this for proper map styling */
+/* Leaflet CSS - for proper map styling */
 @import 'leaflet/dist/leaflet.css';
 
 /* Custom styles for our map */
@@ -84,3 +84,4 @@
   margin: 0;
   padding: 16px;
 }
+
