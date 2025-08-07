@@ -13,7 +13,7 @@ interface LeaderboardProps {
 
 const Leaderboard: React.FC<LeaderboardProps> = ({ currentUser }) => {
   
-
+// aba ahile lai yo ni demo data.. in future we can call it from actual leaders..
   const leaders = [
     { rank: 1, name: 'Sugam Tamang', trees: 12547, treecoins: 125470, location: 'Kathmandu', badge: 'Forest Legend', avatar: 'ST' },
     { rank: 2, name: 'Saugat Bajgain', trees: 9823, treecoins: 98230, location: 'Kavre', badge: 'Green Titan', avatar: 'SB' },
