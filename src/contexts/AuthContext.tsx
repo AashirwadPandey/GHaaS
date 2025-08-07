@@ -46,7 +46,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       id: '1',
       name: 'Arjun Shrestha',
       email: 'arjun@example.com',
-      password: password.env,
+      password: "password123", // In real app, password should not be disclosed like that and should be encrypted.. This is statically written since this is just for hackathon demo purpose.
       treesPlanted: 247,
       treecoins: 2470,
       co2Offset: 3.2,
@@ -150,4 +150,5 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     </AuthContext.Provider>
   );
 };
+
 
