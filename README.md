@@ -88,7 +88,7 @@ Our mission is to build a transparent, engaging, and impactful system that turns
 
 ---
 
-## 🎨 Hackathon VIBES & Demo Additions
+## 🎨 Further Concepts
 
 - **Impact Mode:** Dark UI with animated trees growing with impact.
 - **Live Tree Growth:** Visual tree animation for every 10 trees planted.
