@@ -108,12 +108,12 @@ Our mission is to build a transparent, engaging, and impactful system that turns
 
 ## 👥 Team GHaaS (Green Humanity As A Service)
 
-| Role            | Responsibility                            |
-|------------------|--------------------------------------------|
-| Frontend Dev     | UI/UX, Map, Leaderboard, Dashboard        |
-| Backend Dev      | Donations, Treecoin Engine, APIs          |
-| Designer         | Icons, Animations, Branding, UX Vibes     |
-| PM               | Timeline, Testing, Final Submission       |
+| Name             | Role                | Responsibility                            |
+|------------------|---------------------|-------------------------------------------|
+| Saugat Bajgain   | Frontend Dev        | UI/UX, Map, Leaderboard, Dashboard        |
+| Aashirwad Pandey | Backend Dev         | Donations, Treecoin Engine, APIs          |
+| Utsav Mainali    | Designer            | Icons, Animations, Branding, UI/UX        |
+| Sugam Tamang     | Project Managememnt | Timeline, Testing, Final Submission       |
 
 ---
 
