@@ -62,6 +62,7 @@ const TreeMap: React.FC = () => {
     return null;
   };
 
+  // yesma latitude ra longitude is not correct. We just randomly kept it. Langitude and Latitude can be obtained from openstreetmap's website url. For that make sure to position the correct place in the middle of screen.
   const locations = [
     {
       id: 1,
