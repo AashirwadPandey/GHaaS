@@ -27,7 +27,7 @@ const CommunityForum: React.FC<CommunityForumProps> = ({ user }) => {
     { id: 'success', name: 'Success Stories', count: 178 },
     { id: 'questions', name: 'Q&A', count: 203 }
   ];
-
+// For now, its just random static posts. This shall be callled using APIs. And this should have dynamic properties. However, This can be JSON format for API calls in the future,.
   const posts = [
     {
       id: 1,
