@@ -1,8 +1,8 @@
-# 🌱 GHaaS – Green Humanity as a Service
+# 🌱 GHaaS4Impact – Green Humanity as a Service
 
 > **Tagline:** *Plant Trees, Track Trees, Save The Planet.*
 
-Welcome to **GHaaS**, a hackathon-ready climate action platform built by **Team GHaaS (Green Humanity As A Service)**. Our project gamifies and decentralizes the tree plantation tracking process, rewarding users for taking real, eco-conscious actions that help reforest the planet.
+Welcome to **GHaaS4Impact**, a hackathon climate action platform built by **Team GHaaS (Green Humanity As A Service)**. Our project gamifies and decentralizes the tree plantation tracking process, rewarding users for taking real, eco-conscious actions that help reforest the planet.
 
 ### Live Demo: [https://g-haa-s.vercel.app/](https://g-haa-s.vercel.app/)
 ---
