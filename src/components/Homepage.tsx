@@ -26,7 +26,7 @@ const Homepage: React.FC<HomepageProps> = ({ user }) => {
     streak: 7
   });
 
-  // Simulate real-time stats updates
+  // Simulate real-time stats updates but in future  we can replace this  with actual real-time data
   useEffect(() => {
     const interval = setInterval(() => {
       setStats(prev => ({
@@ -38,7 +38,7 @@ const Homepage: React.FC<HomepageProps> = ({ user }) => {
 
     return () => clearInterval(interval);
   }, []);
-
+// ig these acheivements should seriously be updated later...
   const achievements = [
     { title: 'First Tree', icon: '🌱', completed: true, description: 'Plant your first tree' },
     { title: 'Green Warrior', icon: '⚔️', completed: user.treesPlanted >= 100, description: 'Plant 100 trees' },
@@ -235,3 +235,4 @@ const Homepage: React.FC<HomepageProps> = ({ user }) => {
 };
 
 export default Homepage;
+
