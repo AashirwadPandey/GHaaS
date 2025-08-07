@@ -13,7 +13,7 @@ const EducationalHub: React.FC = () => {
     { id: 'guides', name: 'How-to Guides' },
     { id: 'research', name: 'Research Papers' }
   ];
-
+// In Future, this could also be made dynamic. This could be called using APIs and  JSON format for API can be same as right now. However, for this hackathon, we made it static..
   const resources = [
     {
       id: 1,
@@ -94,7 +94,7 @@ const EducationalHub: React.FC = () => {
       downloadable: true
     }
   ];
-
+// Webinars could also have zoom id or zoom link or google meet id or link in their data and that data could be linked with more abilities. Maybe I'll do it in the future...
   const webinars = [
     {
       id: 1,
