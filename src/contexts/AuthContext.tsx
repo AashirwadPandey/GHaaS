@@ -46,7 +46,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       id: '1',
       name: 'Arjun Shrestha',
       email: 'arjun@example.com',
-      password: 'password123',
+      password: password.env,
       treesPlanted: 247,
       treecoins: 2470,
       co2Offset: 3.2,
@@ -150,3 +150,4 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     </AuthContext.Provider>
   );
 };
+
