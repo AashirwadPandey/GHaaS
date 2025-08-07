@@ -24,7 +24,7 @@ const EnhancedDonation: React.FC<EnhancedDonationProps> = ({ user, onDonationCom
     email: '',
     message: ''
   });
-
+// the donation pre-set amount could be changed from here.
   const presetAmounts = [
     { amount: 15, trees: 3, popular: false },
     { amount: 25, trees: 5, popular: true },
@@ -33,7 +33,7 @@ const EnhancedDonation: React.FC<EnhancedDonationProps> = ({ user, onDonationCom
     { amount: 250, trees: 50, popular: false },
     { amount: 500, trees: 100, popular: false }
   ];
-
+// didn't found any better icon in lucide icons for  eSewa and Khalti
   const paymentMethods = [
     { id: 'card', name: 'Credit/Debit Card', icon: CreditCard },
     { id: 'eSewa', name: 'eSewa', icon: Smartphone },
@@ -347,3 +347,4 @@ const EnhancedDonation: React.FC<EnhancedDonationProps> = ({ user, onDonationCom
 };
 
 export default EnhancedDonation;
+
