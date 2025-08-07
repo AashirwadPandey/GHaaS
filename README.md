@@ -113,7 +113,7 @@ Our mission is to build a transparent, engaging, and impactful system that turns
 | Saugat Bajgain   | Frontend Dev        | UI/UX, Map, Leaderboard, Dashboard        |
 | Aashirwad Pandey | Backend Dev         | Donations, Treecoin Engine, APIs          |
 | Utsav Mainali    | Designer            | Icons, Animations, Branding, UI/UX        |
-| Sugam Tamang     | Project Managememnt | Timeline, Testing, Final Submission       |
+| Sugam Tamang     | Project Management  | Timeline, Testing, Final Submission       |
 
 ---
 
