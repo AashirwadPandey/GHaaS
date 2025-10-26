@@ -11,7 +11,7 @@ Welcome to **GHaaS4Impact**, a hackathon climate action platform built by **Team
 
 ## 🌍 Project Overview
 
-**GHaaS** is a donation-based, gamified platform where users can:
+**GHaaS4Impact** is a donation-based, gamified platform where users can:
 - 🌳 Sponsor tree plantation efforts
 - 🌍 Track real-time tree impact on a global map
 - 🪙 Earn **Treecoins** for contributing
