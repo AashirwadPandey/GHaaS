@@ -1,6 +1,6 @@
 # 🌱 GHaaS4Impact – Green Humanity as a Service
 
-> **Tagline:** *Plant Trees, Track Trees, Save The Planet.*
+> *Plant Trees, Track Trees, Save The Planet.*
 
 > **This Project had won the FIRST PRIZE in Hack4Impact Hackathon, held at PCPS College.**
 
