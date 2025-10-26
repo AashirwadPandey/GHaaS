@@ -1,7 +1,8 @@
 # 🌱 GHaaS4Impact – Green Humanity as a Service
 
 > **Tagline:** *Plant Trees, Track Trees, Save The Planet.*
-> **This Project had won the FIRST PRIZE in Hack4Impact Hackathon, held at PCPS College.
+
+> **This Project had won the FIRST PRIZE in Hack4Impact Hackathon, held at PCPS College.**
 
 Welcome to **GHaaS4Impact**, a hackathon climate action platform built by **Team GHaaS (Green Humanity As A Service)**. Our project gamifies and decentralizes the tree plantation tracking process, rewarding users for taking real, eco-conscious actions that help reforest the planet.
 
